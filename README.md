@@ -1,6 +1,6 @@
 # RU-ZH-MOSHI
 
-This repository contains source code and resources for experimental finetuning of opesource S2S-MM Moshi on Russian-Chinese speech practice task.
+This repository contains source code and resources for experimental finetuning of opesource S2S-LLM [Moshi](https://github.com/kyutai-labs/moshi) on Russian-Chinese speech practice task.
 
 # Repository structure
 
@@ -54,11 +54,11 @@ pip install -e external/moshi-finetune
 5. Consolidate generated audio segments by conversations using `scripts/data/new/merge_conversations.py` script.
 6. Create train/val split using `scripts/data/new/prepare_moshi_jsonl.py` script.
 
-You can download datased from yandex disk: ...
+You can download datased from [yandex disk](https://disk.yandex.ru/d/Opp6-V_lowHl7g)
 
-# Training
+# Training and validation
 
-1. Intall moshi-finetune if you haven't done it yet:
+1. Intall [moshi-finetune](https://github.com/kyutai-labs/moshi-finetune) if you haven't done it yet:
 ```bash
 pip install -e external/moshi-finetune
 ```
