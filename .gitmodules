@@ -1,0 +1,6 @@
+[submodule "external/moshi-finetune"]
+	path = external/moshi-finetune
+	url = https://github.com/kyutai-labs/moshi-finetune
+[submodule "external/poe-api-wrapper"]
+	path = external/poe-api-wrapper
+	url = https://github.com/snowby666/poe-api-wrapper
